@@ -1,0 +1,110 @@
+* {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  height: 770px;
+  width: 1440px;
+  background-image: linear-gradient(#af67e9, #6565e7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  position: absolute;
+  left: -15%;
+  top: 60%;
+  bottom: 40%;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.main-card {
+  display: flex;
+  background-color: white;
+  position: relative;
+  height: 510px;
+  width: 920px;
+  background-image: url("images/bg-pattern-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -525px -275px;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.image img {
+  object-position: -80px 0;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.FAQ {
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.content-items {
+  border-bottom: 1px solid lightgray;
+  padding-top: 25px;
+}
+
+.acc {
+  padding: 0 0;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  cursor: pointer;
+  width: 345px;
+  text-align: left;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.acc:hover {
+  color: #f47c57;
+}
+
+.panel {
+  padding: 25px 0 0 0;
+  background-color: white;
+  width: 315px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  line-height: 1.6;
+}
+
+.icon {
+  background-image: url("/images/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  width: 10px;
+  height: 10px;
+}
+
+.icon-active {
+  transform: rotate(180deg);
+}
+
+/*# sourceMappingURL=style.css.map */
